@@ -1,0 +1,89 @@
+i852845@PHLN00618460A MINGW64 ~
+$ cd
+
+i852845@PHLN00618460A MINGW64 ~
+$ cd /
+
+i852845@PHLN00618460A MINGW64 /
+$ cd c
+
+i852845@PHLN00618460A MINGW64 /c
+$ dir
+$Recycle.Bin       Documents\ and\ Settings  Hybriscommercedrugstore  MSOCache               System\ Volume\ Information  boot                          foods                          hybristrail     returns
+ABCB2B             Drugstore                 Hybriscommercetrail      Mychanges              TestMysqlwebapp              cmscontent                    git                            hybrisworklogs  sappcadm
+ABCB2BTestdata     HYBRISCOMMmerchandise     Hybriscoretrail          Myproject              Testmaven                    commercetrials                hYBRISCERT6                    improve         session.log
+Aliases            Hello1                    Hybrisisapex             PerfLogs               Users                        cuppysoft                     hiberfil.sys                   interfaces      skpswi.dat
+BOOTNXT            Hybris                    Hybrismedicinestore      Program\ Files         Windows                      cuppytrail                    hsqldb                         intper.txt      svntort
+BOOTSECT.BAK       Hybris1B                  Hybrisnewinstall         Program\ Files\ (x86)  abcdocswebservices           distraction\ controllers.txt  hybris\ training\ docs         msdia80.dll     swapfile.sys
+Config.Msi         Hybris5.7                 Hybristrunk              ProgramData            apache-tomcat-9.0.0.M13      dldocs                        hybris-commerce-suite-5.4.0.5  oraclexe        temp
+Developer\ Trials  Hybrisabc                 Intel                    Recovery               bin                          drugfolder                    hybrisknowledge                pagefile.sys    work
+Docs               Hybrisabcnew              Logs                     Sprint1&2docs          books                        export                        hybrisnew                      rescue.info
+
+i852845@PHLN00618460A MINGW64 /c
+$ cd git
+
+i852845@PHLN00618460A MINGW64 /c/git
+$ git  config --global user.name
+
+i852845@PHLN00618460A MINGW64 /c/git
+$ git  config --global user.name "replygaurav78"
+
+i852845@PHLN00618460A MINGW64 /c/git
+$ git  config --global user.email  replygaurav78@gmail.com
+
+i852845@PHLN00618460A MINGW64 /c/git
+$ git  clone  https://github.com/replygaurav78/General-Java.git
+Cloning into 'General-Java'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+i852845@PHLN00618460A MINGW64 /c/git
+$ ls
+General-Java/
+
+i852845@PHLN00618460A MINGW64 /c/git
+$ cd General-Java
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$ ls
+README.md
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$ ls
+README.md  test.txt
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$ git  add test.txt
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$ git commit -m "mytestfile" test.txt
+[master b995920] mytestfile
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$ git  push -u  origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': replygaurav78
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/replygaurav78/General-Java.git
+   24af7da..b995920  master -> master
+Branch master set up to track remote branch master from origin.
+
+i852845@PHLN00618460A MINGW64 /c/git/General-Java (master)
+$
